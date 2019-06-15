@@ -1,5 +1,5 @@
 ## Friend-Finder
-"FriendFinder" is  basically a dating app.  Comparing your answers with all the users... and then is going to display the name and picture of your new friend... 
+"FriendFinder" is  basically a dating app.  Compare your answers with all of the other user anwers... and then displays you the name and picture of your new friend... 
 
 ![Captura de pantalla 2019-06-14 a la(s) 23 01 58](https://user-images.githubusercontent.com/47344468/59546907-2dedb780-8efb-11e9-9eff-5294669b5cfb.png)
 
