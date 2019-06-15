@@ -9,12 +9,12 @@
 
 This dating app includes🛠️:
 * Express
-* Nodejs
+* Node.js
 * Materialize css
-* Css
-* Jquery
+* CSS
+* JQuery
 * Javascript
-* Html
+* HTMÑ
 
 
 ![Captura de pantalla 2019-06-14 a la(s) 23 04 51](https://user-images.githubusercontent.com/47344468/59547029-b0777680-8efd-11e9-880b-fc39736f9aae.png)
