@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FriendFinder App</title>
+    <script src="format.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://kit.fontawesome.com/d14c575457.js"></script>    <script src="https://code.jquery.com/jquery.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body>
+        <nav>
+                <div class="nav-wrapper white">
+                  <a  class="brand-logo pink-text lighten-1-text titulo center large"> <i class="fab fa-gratipay"></i>  FriendFinder</a><i class="fab fa-gratipay"></i>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down  white">
+                    <li><a  class="pink lighten-1" href="home.html">Home Page</a></li>
+                    
+                  </ul>
+                </div>
+              </nav>
+<br>
+<br>
+
+    <div class="row">
+            <div class="col s4">
+                    <ul id="slide-out" class="sidenav sidenav-fixed">
+                                <li><a href="#!"> <p id="rosa"></i> <i class="fas fa-user-circle"></i>  Your Profile</p>
+                        
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                            <li><a href="#!"> <p id="bold"></i> Connections</p>
+                                <br>
+                            </a></li>
+                            
+                            <!-- <li> -->
+                              <div class="container">
+                                <div id="modal1" class="modal">
+                                    <div class="modal-content">
+                                      <h4></h4>
+                                      <div class="divider"></div>
+                                      <h5 id="userMatch"></h5>
+                                      <img id="userMatchImage" class="materialboxed" width="650" src="">
+                                    </div>
+                                    <div class="modal-footer">
+                                      <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Try Again!</a>
+                                    </div>
+                                  </div>
+                              <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"></i></a>
+                            </div>
+                          
+           </div>
+                  <div class="col s8">
+                    <!-- <main class="container"> -->
+
+                        <p class="z-depth-1"></p>
+                        <div class="row">
+                            <form class="col s12 formulario">
+                              <div class="row">
+                                <div class="input-field col s6">
+                                  <input placeholder="" id="name" type="text" class="validate">
+                                  <label for="first_name">Your Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                  <input placeholder="" id="userPhoto" type="text" class="validate">
+                                  <label for="userPhoto">Link to your Photo</label>
+                                </div>
+                              </div>
+                       
+      
+                            </form>
+                          </div>
+                                
+
+              <div class="input-field col 6">
+                  
+                    <select id="p1">
+                      <option value="" disabled selected></option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+
+
+                    </select>
+                    <label>From 1 to 5 how much do you like parties</label>
+                  </div>
+                
+                  <div class="input-field col 6">
+                    <select id="p2">
+                      <option value="" disabled selected></option>
+                      <option value="1">Go to a night club</option>
+                      <option value="2">Visit a new restaurant </option>
+                      <option value="3">Video Games</option>
+                      <option value="4">Movies night</option>
+                      <option value="5">Sleep</option>
+
+
+                    </select>
+                    <label>What do you like to do on a Friday night? 
+                      </label>
+                  </div>
+                
+                  <div class="input-field col s6">
+                    <select id="p3">
+                        <option value="" disabled selected></option>
+
+                        <option value="1">Cat</option>
+                        <option value="2">Ferret</option>
+                        <option value="3">Snake</option>
+                        <option value="4">Dog</option>
+                    </select>
+                    <label>Which kind of pet do you prefer</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <select id = "p4">
+                        <option value="" disabled selected></option>
+
+                        <option value="1">Hungry</option>
+                        <option value="2">Cold</option>
+                        <option value="3">Loneliness</option>
+                        <option value="4">Boredom</option>
+                        <option value="5">Be ignored</option>
+
+                    </select>
+                    <label>Which of the following options would be the worst for you?</label>
+                  </div>
+
+                  <div class="input-field col s6">
+                  <select id= "p5">
+                    <option value="" disabled selected></option>
+                    <option value="1">The wise</option>
+                    <option value="2">The good</option>
+                    <option value="3">The big one</option>
+                    <option value="4">The brave</option>
+                  </select>  
+                  <label> How would you like to be known by history?</label>
+                  </div>
+
+                  <div class="input-field col s6">
+                  <select id="p6">
+                      <option value="" disabled selected></option>
+                      <option value="1">Yellow  </option>
+                      <option value="2">Green</option>
+                      <option value="3">Blue</option>
+                      <option value="4">Prefer</option>
+                    </select>  
+                    <label> Which color do you prefer?</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <select id = "p7">
+                            <option value="" disabled selected></option>
+                            <option value="1">The violin  </option>
+                            <option value="2">The trumpet</option>
+                            <option value="3">The piano</option>
+                            <option value="4">The drum</option>
+                          </select>  
+                          <label> Which instrument do you prefer to listen to?</label>
+                          </div>
+        
+                          <button class="btn waves-effect waves-light" type="submit" id="submit" name="action">Submit
+                              <i class="material-icons right"></i>
+                            </button>
+                
+
+
+                          <!-- MODAL ESTUPIDO QUE NO FUNCIONA -->
+                          <!-- <div id="modal1" class="modal">
+                              <div class="modal-content">
+                                <h4></h4>
+                                <div class="divider"></div>
+                                <h5 id="userMatch"></h5>
+                                <img id="userMatchImage" class="materialboxed" width="650" src="">
+                              </div>
+                              <div class="modal-footer">
+                                <a href="/survey" class="modal-action modal-close waves-effect waves-green btn-flat">Fill Again!</a>
+                              </div>
+                            </div>
+                        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"></i></a> -->
+                  </div>
+
+                </div>
+
+
+
+                  <script>
+$(document).ready(function(){
+    $('select').formSelect();
+
+    $('.modal').modal({
+				dismissible: false, // Modal can be dismissed by clicking outside of the modal
+				opacity: .5, // Opacity of modal background
+				inDuration: 300, // Transition in duration
+				outDuration: 200, // Transition out duration
+				startingTop: '4%', // Starting top style attribute
+				endingTop: '10%' // Ending top style attribute
+			});
+		});
+	
+
+		$("#submit").on('click', function(event) {
+			event.preventDefault();
+			var userInput = {
+				name: $('#name').val().trim(),
+				photo: $('#userPhoto').val().trim(),
+				scores:[
+          
+					$('#p1').val().trim(),
+					$('#p2').val().trim(),
+					$('#p3').val().trim(),
+					$('#p4').val().trim(),
+					$('#p5').val().trim(),
+					$('#p6').val().trim(),
+					$('#p7').val().trim(),
+	
+				]
+			};
+	
+
+			// Add user inputs to friends list
+			$.post('/api/friends', userInput)
+      		.done(function(data) {
+      			// console.log('response = ' + JSON.stringify(data));
+      			// Set the name and image values of friend match
+      			$('#userMatch').html(data.matchName);
+		    	$("#userMatchImage").attr("src", data.matchImage);
+		    	// Pop open the modal dialog
+      			$('#modal1').modal('open');
+		});
+		});
+
+
+
+
+
+  // Or with jQuery
+
+
+        
+                  </script>
+</body>
+</html>
